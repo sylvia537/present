@@ -1,0 +1,25 @@
+.container-row{
+    height: auto;
+    width: 80%;
+    padding: 0px;
+    margin: 0 auto;
+    background-color:  wheat;
+    display: flex;
+}
+@media only screen and (max-width:600px) {
+    body{
+        background-color: rgb(122, 233, 200);
+    }
+    h1{
+        color: pink;
+    }
+    img{
+        border-radius: 30px;
+    }
+    p{
+        font-size: 30px;
+    }
+    div{
+        flex-direction: column;
+    }
+}
